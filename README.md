@@ -1,2 +1,27 @@
-# aoc-2022-py
-My solutions for the 2022 Advent of Code in Python.
+# :christmas_tree: Advent of Code 2022
+
+My solutions for the [Advent of Code](https://adventofcode.com/) puzzles in [Python](https://www.python.org/).
+
+## Results
+
+| Day | Part 1 | Part 2 |
+| :---: | :---: | :---: |
+| [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) | :star: | :star: |
+
+## Code of Conduct
+
+[<img src="https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg">](code-of-conduct.md)
+
+I am dedicated to building a welcoming, diverse, safe community.  I expect
+everyone participating in this community to abide by the [Code of
+Conduct](code-of-conduct.md).  Please read it.  Please follow it.  In this
+community, we work hard to build each other up and create amazing things
+together.
+
+## Author
+
+- [Brendan Leber](https://github.com/BrendanLeber)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
