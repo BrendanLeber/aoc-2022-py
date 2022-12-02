@@ -6,7 +6,6 @@ import pdb
 import traceback
 from enum import Enum
 
-
 Move = Enum("Move", ["ROCK", "PAPER", "SCISSORS"])
 Result = Enum("Result", ["LOSE", "TIE", "WIN"])
 
@@ -94,7 +93,14 @@ def turn_result(player_move: Move, opponent_move: Move) -> Result:
     return RESULTS[player_move][opponent_move]
 
 
-def part_01(puzzle: list[tuple[str, str]]) -> int:
+def parse_input(text: str):
+    puzzle = []
+    for line in text.split("\n"):
+        puzzle.append(tuple(line.split()))
+    return puzzle
+
+
+def part_1(puzzle):
     total_score: int = 0
     for oinput, pinput in puzzle:
         opponent = input_to_move(oinput)
@@ -105,7 +111,7 @@ def part_01(puzzle: list[tuple[str, str]]) -> int:
     return total_score
 
 
-def part_02(puzzle: list[tuple[str, str]]) -> int:
+def part_2(puzzle):
     total_score: int = 0
     for oinput, result in puzzle:
         opponent = input_to_move(oinput)
@@ -126,14 +132,13 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    puzzle: list[tuple[str, str]] = []
     with open(args.input[0], "r") as inf:
-        for line in inf.readlines():
-            puzzle.append(tuple(line.split()))
+        text = inf.read().strip()
 
     try:
-        print(part_01(puzzle))
-        print(part_02(puzzle))
+        puzzle = parse_input(text)
+        print(part_1(puzzle))
+        print(part_2(puzzle))
     except Exception:
         traceback.print_exc()
         pdb.post_mortem()

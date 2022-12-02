@@ -2,6 +2,18 @@
 
 My solutions for the [Advent of Code](https://adventofcode.com/) puzzles in [Python](https://www.python.org/).
 
+## Execution
+
+To run all the existing solutions use:
+
+    ./aocrun
+
+To run an individual day use:
+
+    ./aocrun DAY
+
+Where day is a number from 1 to 25 inclusive.
+
 ## Results
 
 | Day | Part 1 | Part 2 |

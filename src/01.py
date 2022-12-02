@@ -6,19 +6,26 @@ import pdb
 import traceback
 
 
-def part_01(elves: list[list[int]]) -> int:
+def parse_input(text: str):
+    blocks = []
+    for block in text.split("\n\n"):
+        blocks.append(list(map(int, block.split())))
+    return blocks
+
+
+def part_1(elves):
     totals: list[int] = []
     for elf in elves:
         totals.append(sum(elf))
-    print(max(totals))
+    return max(totals)
 
 
-def part_02(elves: list[list[int]]) -> int:
+def part_2(elves):
     totals: list[int] = []
     for elf in elves:
         totals.append(sum(elf))
     totals.sort(reverse=True)
-    print(sum(totals[:3]))
+    return sum(totals[:3])
 
 
 if __name__ == "__main__":
@@ -32,15 +39,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     with open(args.input[0], "r") as inf:
-        content = inf.read().strip()
-
-    blocks = []
-    for block in content.split("\n\n"):
-        blocks.append(list(map(int, block.split())))
+        text = inf.read().strip()
 
     try:
-        part_01(blocks)
-        part_02(blocks)
+        puzzle = parse_input(text)
+        print(part_1(puzzle))
+        print(part_2(puzzle))
     except Exception:
         traceback.print_exc()
         pdb.post_mortem()
