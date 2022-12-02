@@ -5,8 +5,10 @@ My solutions for the [Advent of Code](https://adventofcode.com/) puzzles in [Pyt
 ## Results
 
 | Day | Part 1 | Part 2 |
-| :---: | :---: | :---: |
+| :--- | :---: | :---: |
 | [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) | :star: | :star: |
+| [Day 2: Rock Paper Scissors](https://adventofcode.com/2022/day/2) | :star: | :star: |
+| [Day 3: TBD](https://adventofcode.com/2022/day/3) |  |  |
 
 ## Code of Conduct
 

@@ -9,3 +9,6 @@ line_length = 100
 remove_redundant_aliases = true
 multi_line_output = 4  # vertical grid
 float_to_top = true
+
+[mypy]
+show_error_codes = true
