@@ -14,10 +14,10 @@ from tabulate import tabulate
 
 def format_duration(duration: float) -> str:
     if duration > 1e-3:
-        return f"{duration:.3f} s"
+        return f"{duration:.4f} s."
     if duration > 1e-6:
-        return f"{duration / 1E-6:.3f} ms"
-    return f"{duration / 1E-9:.3f} µs"
+        return f"{duration / 1E-6:.4f} ms"
+    return f"{duration / 1E-9:.4f} µs"
 
 
 def run_day(day: int):
@@ -64,7 +64,7 @@ def run_all_days():
                 ]
             )
 
-    print(tabulate(results))
+    print(tabulate(results, colalign=("left", "right", "right", "right", "right", "right")))
     print(f"Total Elapsed: {format_duration(total_elapsed)}")
 
 
