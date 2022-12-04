@@ -21,6 +21,7 @@ Where day is a number from 1 to 25 inclusive.
 | [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) | :star: | :star: |
 | [Day 2: Rock Paper Scissors](https://adventofcode.com/2022/day/2) | :star: | :star: |
 | [Day 3: Rucksack Reorganizaion](https://adventofcode.com/2022/day/3) | :star: | :star:  |
+| [Day 4: Camp Cleanup](https://adventofcode.com/2022/day/3) | :star: | :star:  |
 
 ## Code of Conduct
 
