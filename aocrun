@@ -27,7 +27,7 @@ def run_day(day: int):
 
     input_file = Path(f"../inputs/{day:02d}.txt")
     with open(input_file, "r") as inf:
-        text = inf.read().strip()
+        text = inf.read().strip("\n")
 
     puzzle = module.parse_input(text)
 
