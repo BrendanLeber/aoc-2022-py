@@ -23,6 +23,7 @@ Where day is a number from 1 to 25 inclusive.
 | [Day 3: Rucksack Reorganizaion](https://adventofcode.com/2022/day/3) | :star: | :star: |
 | [Day 4: Camp Cleanup](https://adventofcode.com/2022/day/4)           | :star: | :star: |
 | [Day 5: Supply Stacks](https://adventofcode.com/2022/day/5)          | :star: | :star: |
+| [Day 6: Tuning Trouble](https://adventofcode.com/2022/day/6)         | :star: | :star: |
 
 ## Code of Conduct
 
