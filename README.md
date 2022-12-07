@@ -18,12 +18,13 @@ Where day is a number from 1 to 25 inclusive.
 
 | Day | Part 1 | Part 2 |
 | :--- | :---: | :---: |
-| [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1)       | :star: | :star: |
-| [Day 2: Rock Paper Scissors](https://adventofcode.com/2022/day/2)    | :star: | :star: |
-| [Day 3: Rucksack Reorganizaion](https://adventofcode.com/2022/day/3) | :star: | :star: |
-| [Day 4: Camp Cleanup](https://adventofcode.com/2022/day/4)           | :star: | :star: |
-| [Day 5: Supply Stacks](https://adventofcode.com/2022/day/5)          | :star: | :star: |
-| [Day 6: Tuning Trouble](https://adventofcode.com/2022/day/6)         | :star: | :star: |
+| [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1)        | :star: | :star: |
+| [Day 2: Rock Paper Scissors](https://adventofcode.com/2022/day/2)     | :star: | :star: |
+| [Day 3: Rucksack Reorganizaion](https://adventofcode.com/2022/day/3)  | :star: | :star: |
+| [Day 4: Camp Cleanup](https://adventofcode.com/2022/day/4)            | :star: | :star: |
+| [Day 5: Supply Stacks](https://adventofcode.com/2022/day/5)           | :star: | :star: |
+| [Day 6: Tuning Trouble](https://adventofcode.com/2022/day/6)          | :star: | :star: |
+| [Day 7: No Space Left On Device](https://adventofcode.com/2022/day/7) | :star: | :star: |
 
 ## Code of Conduct
 

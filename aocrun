@@ -26,7 +26,7 @@ def run_day(day: int):
     name = module.__doc__[module.__doc__.find("-") + 2 : -1]
 
     input_file = Path(f"../inputs/{day:02d}.txt")
-    with open(input_file, "r") as inf:
+    with open(input_file, "r", encoding="utf-8") as inf:
         text = inf.read().strip("\n")
 
     puzzle = module.parse_input(text)
@@ -73,13 +73,13 @@ if __name__ == "__main__":
         if len(sys.argv) > 3:
             print(f"Syntax: {sys.argv[0]}: [DAY]")
         elif len(sys.argv) == 2:
-            day = int(sys.argv[1])
-            result = run_day(day)
+            DAY = int(sys.argv[1])
+            result = run_day(DAY)
             print(f"{result[0]}")
             print(f"  {result[1]} (elapsed: {format_duration(result[2])})")
             print(f"  {result[3]} (elapsed: {format_duration(result[4])})")
         else:
             run_all_days()
-    except Exception:
+    except Exception:  # pylint: disable=broad-except
         traceback.print_exc()
         pdb.post_mortem()
